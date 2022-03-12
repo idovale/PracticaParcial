@@ -1,0 +1,125 @@
+* {
+  font-family: "Fredoka", sans-serif;
+}
+
+header .logo,
+.title,
+.lista-principal ul li,
+.content-header {
+  display: inline-block;
+}
+
+header .lista-principal img {
+  margin: 0px 0px 0px 40px;
+  padding: 0px 0px 0px 0px;
+}
+
+header .lista-principal p {
+  font-size: 30px;
+  color: #012871;
+}
+
+header .lista-principal ul {
+  float: right;
+  margin: 27px 50px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+header .lista-principal ul li a {
+  list-style: none;
+  color: #023289;
+  text-decoration: none;
+  padding: 0px 30px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+header .lista #blue {
+  color: #4152f0;
+}
+
+header button {
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #4152f0;
+}
+
+header .lista button {
+  padding: 10px 20px 10px 20px;
+}
+
+header .content-header {
+  width: 520px;
+  height: 520px;
+  margin: 100px 0px 0px 40px;
+  padding: 0px 0px 0px 0px;
+}
+
+header .content-header p {
+  font-size: 40px;
+  color: #012871;
+  margin: 20px 0px 0px 0px;
+}
+
+header .content-header button {
+  padding: 15px 35px 15px 35px;
+  margin: 20px 0px 0px 0px;
+}
+
+header .content-header #bottom-text {
+  font-size: 21px;
+  color: #3e3f3f;
+}
+
+header .header-img {
+  float: right;
+  padding: 40px 50px 0px 0px;
+}
+
+section .values {
+  text-align: center;
+}
+
+section .values h3 {
+  font-size: 13px;
+  color: #4152f0;
+}
+
+section .values h1 {
+  font-size: 40px;
+  color: #012871;
+}
+
+section article {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  margin: 30px 0px 0px 10px;
+  padding: 50px 100px 30px 0px;
+  border: 0.5px solid #5c5b5b11;
+  color: #3e3f3f;
+}
+
+section article #title {
+  color: #01256d;
+  font-size: 20px;
+}
+
+section article p {
+  color: #4c4d4c;
+  font-size: 14px;
+  padding: 15px 0px 0px 0px;
+  margin: 0px 0px 0px 40px;
+  width: 300px;
+}
+
+section article img {
+  margin: 20px 0px 0px 50px;
+  width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #01256d;
+    }
+}
